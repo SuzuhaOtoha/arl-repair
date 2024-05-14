@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_URL: tophant/arl
+  IMAGE_URL: kisara4396/arl-repair
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
