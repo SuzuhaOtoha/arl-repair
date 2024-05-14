@@ -74,7 +74,7 @@ RUN wih --version
 
 ## 切换工作目录
 WORKDIR /code
-touch arl_worker.log arl_web.log 
+RUN touch arl_worker.log arl_web.log 
 
 ## 自测一下
 RUN cp app/config.yaml.example app/config.yaml
